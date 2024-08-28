@@ -17,7 +17,7 @@ Jump Code Generator (JCG)
 
     std::cout << "===========================================" << std::endl;
     std::cout << " Jump Code Generator (JCG) - Version 1.0" << std::endl;
-    std::cout << " Copyright (C) 2024 by Your Name" << std::endl;
+    std::cout << " Copyright MIT (C) 2024 0xKate " << std::endl;
     std::cout << "===========================================" << std::endl;
     std::cout << "This tool is intended for educational and " << std::endl;
     std::cout << "research purposes only. Use responsibly." << std::endl;
