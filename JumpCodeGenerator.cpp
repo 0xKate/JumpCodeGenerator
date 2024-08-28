@@ -2,6 +2,7 @@
 #include <vector>
 #include <sstream>
 #include <iomanip>
+#include <conio.h>
 
 void PrintBanner() {
     std::cout << R"(
@@ -77,6 +78,9 @@ int main() {
         std::cout << "0x" << std::hex << static_cast<int>(byte) << " ";
     }
     std::cout << std::endl;
+
+    std::cout << "Press any key to continue...";
+    _getch();  // Waits for a key press
 
     return 0;
 }
