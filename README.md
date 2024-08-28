@@ -21,25 +21,6 @@ Enter the destination address (hex, e.g., 0047B350): 0047B350
 0xE9 0x10 0x00 0x00 0x00 
 In this example, the tool converts the CALL instruction at address 0047B33B into a JMP instruction that jumps to 0047B350, outputting the corresponding bytes.
 
-Installation
-Clone the Repository:
-
-sh
-Copy code
-git clone https://github.com/your-username/JumpCodeGenerator.git
-Compile the Source: Use your preferred C++ compiler to compile the source code:
-
-sh
-Copy code
-g++ -o JCG JumpCodeGenerator.cpp
-Run the Tool: Execute the compiled binary:
-
-sh
-Copy code
-./JCG
-Contributing
-Contributions are welcome! If you find a bug or have a feature request, please open an issue or submit a pull request.
-
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
